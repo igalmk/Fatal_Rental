@@ -352,9 +352,13 @@
 "Assets/prefab/Player/MouseLook.cs"
 "Assets/prefab/Player/PlayerMovement.cs"
 "Assets/scripts/AnimatorHandler.cs"
+"Assets/scripts/AudioHandler.cs"
+"Assets/scripts/FlickerLight.cs"
 "Assets/scripts/Interactable.cs"
 "Assets/scripts/Interactor.cs"
 "Assets/scripts/KeyPad.cs"
+"Assets/scripts/Manager.cs"
+"Assets/scripts/UiTextBubble.cs"
 -langversion:9.0
 
 /deterministic
