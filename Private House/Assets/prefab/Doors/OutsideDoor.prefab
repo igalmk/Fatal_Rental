@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6270101409710628689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6270101409710628690}
+  - component: {fileID: 6270101409710628684}
+  - component: {fileID: 6270101409710628691}
+  m_Layer: 0
+  m_Name: OutsideDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6270101409710628690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6270101409710628689}
+  m_LocalRotation: {x: -0, y: 0.5194179, z: -0, w: 0.8545204}
+  m_LocalPosition: {x: -6.681, y: 5.24, z: -3.626}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5803268000231032923}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 62.586, z: 0}
+--- !u!95 &6270101409710628684
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6270101409710628689}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d978326bb4152434d9aafab5f0b5df58, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6270101409710628691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6270101409710628689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63f9cd067136e4d44a592bb29bd9b0a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 6270101409710628684}
+--- !u!1001 &6270101408454078384
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6270101409710628690}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10.0005045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 150.00005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 300.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.03974992
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07999992
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5011473
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70709443
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7070945
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0041787624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0041786428
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 63.265
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_Name
+      value: OutsideDoorModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+--- !u!4 &5803268000231032923 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+  m_PrefabInstance: {fileID: 6270101408454078384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6611998743616672481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+  m_PrefabInstance: {fileID: 6270101408454078384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6270101409012335590
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6611998743616672481}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5495902117074765545, guid: f82e220a4b57e0d4fa60902383b7ccd6, type: 3}
+--- !u!114 &6270101409012335591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6611998743616672481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 759aa4c43a4d57a4f8eccf036677bc5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6270101409710628691}
+        m_TargetAssemblyTypeName: AnimatorHandler, Assembly-CSharp
+        m_MethodName: ToggleBool
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CanOpenOutsideDoor
+          m_BoolArgument: 0
+        m_CallState: 2
+  ID: 0
