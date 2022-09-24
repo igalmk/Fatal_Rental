@@ -5,23 +5,31 @@ using UnityEngine.Events;
 
 public class Manager : MonoBehaviour
 {
-    bool ApartmentKey = false;
+    private bool ApartmentKey = false;
     public UnityEvent OpenAparmentDoor;
     public UnityEvent AparmentDoorText;
 
-    bool Fuse = false;
+    private bool Fuse = false;
     public UnityEvent InsertFuse;
     public UnityEvent PowerClosetText;
 
-    bool MatchStick = false;
+    private bool MatchStick = false;
     public UnityEvent LightCandle;
     public UnityEvent LightCandleText;
 
-    bool Candle = false;
-    public UnityEvent PlaceCandle;
-    public UnityEvent PlaceCandleText;
+    private bool Power = false;
+    public UnityEvent TurnLightOn;
+    public UnityEvent SwitchText;
 
+    private bool Disc = false;
+    public UnityEvent PlayDVD;
+    public UnityEvent DVDText;
 
+    private bool DVDIsOn = false;
+    public UnityEvent PlayTV;
+    public UnityEvent TVText;
+
+    public UnityEvent CorrectPhonePassword;
 
     public void GotApartmentKey()
     {
@@ -48,6 +56,7 @@ public class Manager : MonoBehaviour
         if(Fuse)
         {
             InsertFuse.Invoke();
+            GotPower();
         }
         else
         {
@@ -71,20 +80,60 @@ public class Manager : MonoBehaviour
         }
     }
 
-    public void GotCandle()
+    public void GotPower()
     {
-        Candle = true;
+        Power = true;
     }
-
-    public void HasCandle()
+    public void HasPower()
     {
-        if(Candle)
+        if (Power)
         {
-            PlaceCandle.Invoke();
+            TurnLightOn.Invoke();
         }
         else
         {
-            PlaceCandleText.Invoke();
+            SwitchText.Invoke();
         }
     }
+
+    public void GotDisc()
+    {
+        Disc = true;
+    }
+    public void HasDisc()
+    {
+        if(Disc)
+        {
+            PlayDVD.Invoke();
+            GotDVDIsOn();
+        }
+        else
+        {
+            DVDText.Invoke();
+        }
+    }
+
+    public void GotDVDIsOn()
+    {
+        DVDIsOn = true;
+    }
+    public void HasDVDIsOn()
+    {
+        if(DVDIsOn)
+        {
+            PlayTV.Invoke();
+        }
+        else
+        {
+            TVText.Invoke();
+        }
+    }
+
+
+    public void GotCorrectPhonePassword()
+    {
+        CorrectPhonePassword.Invoke();
+    }
+
+
 }
